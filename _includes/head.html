@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.main_title }} - {{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{page.description}}">
+    {% else %}
+    <meta name="description" content="{{site.description}}">
+    {% endif %}
+    <meta name="author" content="Brian Scaturro">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="alternate" type="application/atom+xml" title="brianscaturro.com feed" href="http://brianscaturro.com/atom.xml" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="//use.typekit.net/pip1ewm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    {% include tracking.html %}
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="https://github.com/brianium" target="_blank">
+                <img style="position: absolute; top: 0; right: 0; border: 0; z-index:99" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+            </a>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 clearfix">
+                    <div class="dots pull-right">
+                        <a href="https://www.google.com/?q=christmas#q=christmas">
+                            <div class="dot"></div> 
+                        </a>
+                        <a href="https://www.google.com/?q=thanksgiving#q=thanksgiving">
+                            <div class="dot"></div> 
+                        </a>
+                        <a href="https://www.google.com/?q=easter#q=easter" class="lindsey-the-odd-one">
+                            <div class="dot"></div> 
+                        </a>
+                    </div>
+            
+                    {% include navigation.html %}
+                </div>
+            </div>
+            
+            <div class="page-header">
+                <a href="/">
+                    <div class="logo">
+                        <p class="logo-text">
+                            BAS
+                        </p>
+                    </div>
+                </a>
+                <h1 class="logo-subtext">The Blog Of Brian Anthony Scaturro</h1>
+            </div>
+        </header>
+
+        <main role="main" class="row">
+            <div class="col-md-10 col-md-offset-1">

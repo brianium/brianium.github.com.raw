@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Brian Scaturro</title>
+ <link href="http://brianscaturro.com/atom.xml" rel="self"/>
+ <link href="http://brianscaturro.com/"/>
+ <updated>2013-12-30T14:27:12-05:00</updated>
+ <id>http://brianscaturro.com/</id>
+ <author>
+   <name>Brian Scaturro</name>
+   <email>scaturrob@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Functional Composition</title>
+   <link href="http://brianscaturro.com/2013/12/12/functional-composition-in-expressjs.html"/>
+   <updated>2013-12-12T00:00:00-05:00</updated>
+   <id>http://brianscaturro.com.com/2013/12/12/functional-composition-in-expressjs</id>
+   <content type="html">&lt;h2 id='functional_composition'&gt;Functional Composition&lt;/h2&gt;
+
+&lt;h2 id='persisting_a_user'&gt;Persisting A User&lt;/h2&gt;
+
+&lt;h2 id='ensuring_valid_data'&gt;Ensuring Valid Data&lt;/h2&gt;
+
+&lt;h2 id='hashing_a_password'&gt;Hashing A Password&lt;/h2&gt;
+
+&lt;h2 id='saving_the_data'&gt;Saving The Data&lt;/h2&gt;</content>
+ </entry>
+ 
+ 
+</feed>
